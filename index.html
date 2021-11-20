@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AF-Payment Gateway</title>
+  <link rel="shortcut icon" href="./images/Payment.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header & Main -->
+  <div class="header" id="topheader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-brown">
+      <div class="container-fluid text-uppercase p-2">
+        <a class="navbar-brand" href="#">Astha Foundation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" menu collapse navbar-collapse" onclick="toggleMenu();" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactId">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="header-section">
+      <div class="center-div">
+        <h2 class="font-weight-bold text-small">Part of being a person is about helping others.</h2>
+        <h1 class="font-weight-bold text-big">Helping Hands</h1>
+        <div class="header-buttons">
+          <a href="https://rzp.io/l/KquipJwrYv" target="_blank" class="mybtn btn gradient-bg mr-2">Donate Now</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- About Us -->
+  <section class="header-extradiv" id="AboutUs">
+    <h1>Your Small Action Lead To Big Changes</h1>
+    <div class="container">
+      <div class="row">
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-smile-o" aria-hidden="true"></i>
+          </a>
+          <h3>Donating Us</h3>
+          <p>(More Details)</p>
+          <i class="arrow fa-2x fa fa-arrow-right"></i>
+        </div>
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-globe" aria-hidden="true"></i>
+          </a>
+          <h3>Join Our Community</h3>
+          <p>(More Details)</p>
+          <i class="arrow fa-2x fa fa-arrow-right"></i>
+        </div>
+        <div class="extra-div col-lg-4 col-md-4 col-12">
+          <a href="#"><i class="fa-3x fa fa-hand-paper-o" aria-hidden="true"></i>
+          </a>
+          <h3>Be A Volunteer</h3>
+          <p>(More Details)</p>
+          <i class="arrow fa-2x fa fa-arrow-right"></i>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer Contact Us -->
+  <footer class="contactus" id="ContactId">
+    <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">CONTACT US</h1>
+      <h5><b>Contact No. - +91-1234567890 &emsp; &nbsp; &emsp; Email - foundationastha@outlook.com</b></h5>
+      <h5><b>(Connect With Our Social Media)</b></h5>
+      <i class="socialmedia-icon fa-2x fa fa-phone"></i>
+      <i class="socialmedia-icon fa-2x fa fa-whatsapp"></i>
+      <i class="socialmedia-icon fa-2x fa fa-twitter"></i>
+      <i class="socialmedia-icon fa-2x fa fa-facebook-f"></i>
+      <i class="socialmedia-icon fa-2x fa fa-instagram"></i>
+      <h6>© Copyright Reserved | Astha Foundation - All Rights Reserved</h6>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

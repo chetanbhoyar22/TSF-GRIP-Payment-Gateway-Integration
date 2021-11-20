@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.mybtn{
+    background:cornflowerblue;
+}
+.btn{
+    color:white;
+    border-color: white;
+    margin-top: 40px;
+    margin-right:20px;   
+}
+.btn:hover{
+    background:#d09a2e;
+    color:white;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(15, 15, 15, 0.671),rgba(15, 15, 15, 0.534)), url(https://www.thephilosophyman.com/wp-content/uploads/2020/10/helping-hands.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position: relative;
+    padding: inherit;
+}
+.text-big{
+    font-size: 40px;
+}
+.navbar{
+    background-color:rgba(61, 66, 66, 0.5)
+}
+.navbar-brand{
+    font-weight: bold;
+    color: white!important;   
+}
+.nav-item a{
+    color: white!important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:black!important;
+}
+.header-section{
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+.font-weight-bold:hover{
+    cursor: default;
+} 
+.center-div h1,h2{
+    font-family:Georgia, 'Times New Roman', Times, serif!important ;
+}                                                                                        
+.center-div{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.header-extradiv{
+    width: 100%;
+    height:auto;
+    margin:auto;
+    padding: 70px 0 2px 0;
+    text-align: center;
+    padding: inherit;
+    background-color:honeydew;
+    }
+.header-extradiv h1{
+        padding-top: 90px;
+        color:#996805;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+.header-extradiv> h3,p{
+    color:#aa7408!important;
+}
+.extra-div:hover{
+    border: 2px solid #aa7408;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+    cursor: pointer;
+    color:#d09a2e;
+}
+.extra-div>h3{
+    color: #aa7408!important;
+}
+.fa {
+    color:#aa7408;
+  }
+.extra-div{
+    width: 100%;
+    height:auto;
+    margin: 100px 0;
+    padding:50px!important;
+    border-radius:3px;
+    transition: 0.3s;  
+}
+.box{
+    text-align: center;
+    color:#d09a2e
+    }
+.box p{
+    color:#aa7408;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 30px!important;
+}
+.carousel-indicators li{
+    background-color: #aa7408!important;
+}    
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#aa7408;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:#aa7408;
+}
+.socialmedia-icon{
+    margin: 20px 10px;
+    color:white;
+  }
+.contactus h1{
+    padding: 10px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contactus h5,h6:hover{
+    color: white!important;
+    cursor: pointer!important;
+}
+.contactus h5,h6{
+    margin-top: 80px;
+    color: #996805!important;
+}
+.contactus{
+    width: 100%;
+    height:auto;
+    margin:auto;
+    padding: 50px 30px 2px 0;
+    position: relative;
+    background-color:black;    
+    text-align: center;
+    line-height: 5.6;
+} 
+.socialmedia-icon fa{
+    color:white!important;
+}
+.socialmedia-icon:hover{
+    color:#996805!important;
+    cursor: pointer;
+}
