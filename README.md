@@ -1,5 +1,6 @@
 # Task 3 - Payment-Gateway-Integration
-Internship At **The Sparks Foundation**
+
+Internship at **The Sparks Foundation**
 
 **FRONT END** : HTML, CSS
 
